@@ -28,7 +28,7 @@ export function renderSpecCode(spec: OpenAPIV2.Document) {
   return formatCode(`
   /* tslint:disable:object-literal-sort-keys */
   /* tslint:disable:no-duplicate-string */
-added this line
+//added this line
   // DO NOT EDIT
 
   export const specs = ${JSON.stringify(spec)};
